@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#nav_bar{
+  display: flex;
+  justify-content: flex-end;
+}
+ul > li {
+  margin:20px 0;
+  padding: 8px 10px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #sign_in{
+    background-color: rgb(76, 76, 241);
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+  }
+  #nav_bar ul > li:last-child a {
+    color: white;
+  }
+ul {
+  display: flex;
+}
+.google-image {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#form-search {
+  padding: 10px 300px 10px 10px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid rgb(124, 122, 122);
+  font-size: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+#google_search {
+   padding: 3px 10px;
+  margin-bottom: auto;
+}
+
+#im_feeling_lucky {
+  padding: 3px 10px;
+  margin-bottom: auto;
+}
+
+.buttons > #google_search {
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(207, 204, 204);
+  font-size: 13px;
+}
+
+footer > ul > li > a {
+  color: #6b6a6a;
+}
+
+footer > ul > li > a:hover {
+  color: #3b3d3d;
+}
